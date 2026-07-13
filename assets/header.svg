@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-labelledby="title desc">
+  <title id="title">Benito Alba Molina</title>
+  <desc id="desc">WordPress, open source, and software engineering</desc>
+
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#081A2B" />
+      <stop offset="55%" stop-color="#102F46" />
+      <stop offset="100%" stop-color="#203748" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#66E3FF" />
+      <stop offset="100%" stop-color="#8FB9D8" />
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#66E3FF" stop-opacity="0.14" />
+      <stop offset="100%" stop-color="#66E3FF" stop-opacity="0" />
+    </radialGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M 36 0 L 0 0 0 36" fill="none" stroke="#FFFFFF" stroke-opacity="0.055" stroke-width="1" />
+    </pattern>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="14" flood-color="#000000" flood-opacity="0.25" />
+    </filter>
+  </defs>
+
+  <rect width="1280" height="320" rx="24" fill="url(#background)" />
+  <rect width="1280" height="320" rx="24" fill="url(#grid)" />
+  <ellipse cx="1060" cy="90" rx="330" ry="250" fill="url(#glow)" />
+
+  <g opacity="0.9" filter="url(#softShadow)">
+    <circle cx="1058" cy="160" r="94" fill="none" stroke="url(#accent)" stroke-width="2" />
+    <circle cx="1058" cy="160" r="65" fill="none" stroke="#FFFFFF" stroke-opacity="0.25" stroke-width="1" />
+    <path d="M991 160h134M1058 93v134" stroke="#FFFFFF" stroke-opacity="0.13" stroke-width="1" />
+    <path d="M1022 124l72 72M1094 124l-72 72" stroke="#FFFFFF" stroke-opacity="0.09" stroke-width="1" />
+    <circle cx="1058" cy="160" r="10" fill="url(#accent)" />
+    <circle cx="1058" cy="66" r="5" fill="#66E3FF" />
+    <circle cx="1152" cy="160" r="5" fill="#8FB9D8" />
+    <circle cx="1058" cy="254" r="5" fill="#66E3FF" />
+    <circle cx="964" cy="160" r="5" fill="#8FB9D8" />
+  </g>
+
+  <g font-family="Segoe UI, Inter, Arial, sans-serif">
+    <text x="92" y="128" fill="#A7BED0" font-size="18" font-weight="600" letter-spacing="4">HELLO, I’M</text>
+    <text x="88" y="202" fill="#FFFFFF" font-size="66" font-weight="700" letter-spacing="-1.5">Benito Alba Molina</text>
+    <rect x="92" y="226" width="64" height="4" rx="2" fill="url(#accent)" />
+    <text x="174" y="234" fill="#C8D8E4" font-size="21" font-weight="500" letter-spacing="0.6">WORDPRESS  •  OPEN SOURCE  •  SOFTWARE ENGINEERING</text>
+  </g>
+
+  <path d="M0 298C180 260 326 330 510 294s334-11 480 1 222-7 290-29v54H0z" fill="#FFFFFF" fill-opacity="0.025" />
+</svg>
